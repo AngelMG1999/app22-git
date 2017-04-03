@@ -2,7 +2,7 @@
 
 <widget xmins="http://www.w3.org/ns/widgets"
  xmlns:gap="http://phonegap.com/ns/1.0"
- id="com.phonegap.example2"
+ id="com.phonegap.example3"
  version="1.0.0">
  
  <name> app2 DATOS DE LA TELEFONIA CELULAR</name>
@@ -32,6 +32,13 @@
   
   <!--<plugin name="cordova-plugin-geolocation" source=npm"/> -->
    <!--third party plugins-->
+   
+   <!-- para accesar a paginas de internet-->
+   <allow-intent href="https://*/*"/>
+   <acces origin="https://*/*"/>
+    <allow-intent href="http://*/*"/>
+   <acces origin="http://*/*"/>
+   <plugin name="cordova-plugin-whitelist" source="npm"/>
    
    <!--colocar icono app-->
    
